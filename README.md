@@ -22,7 +22,7 @@
 * [Chapter 1: Code Should Be Easy to Understand](chapters/1-code-should-be-easy.md)
 * Part 1: Surface-Level Improvements
 	* [Chapter 2: Packing Information into Names](chapters/2-packing-information-into-names.md)
-	* Chapter 3: Names That Can’t Be Misconstrued
+	* [Chapter 3: Names That Can’t Be Misconstrued](chapters/3-names-cant-misconstructed.md)
 	* Chapter 4: Aesthetics
 	* Chapter 5: Knowing What to Comment
 	* [Chapter 6: Making Comments Precise and Compact

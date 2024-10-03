@@ -28,7 +28,7 @@
 	* [Chapter 6: Making Comments Precise and Compact](chapters/6-making-comments-precise.md)
 * Part 2: Simplifying Loops and Logic
 	* [Chapter 7: Making Control Flow Easy to Read](chapters/7-making-control-flow-easy.md)
-	* Chapter 8: Breaking Down Giant Expressions
+	* [Chapter 8: Breaking Down Giant Expressions](chapters/8-breaking-down-expressions.md)
 	* Chapter 9: Variables and Readability
 * Part 3: Reorganizing Your Code
 	* Chapter 10: Extracting Unrelated Subproblems

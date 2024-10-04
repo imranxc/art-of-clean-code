@@ -12,7 +12,7 @@ For example:
 
 ```py
 if line.split(":")[0].strip() == "root":
-	pass
+  pass
 ```
 
 This can be rewritten with an explaining variable:
@@ -21,7 +21,7 @@ This can be rewritten with an explaining variable:
 user_name = line.split(":")[0].strip()
 
 if user_name == 'root':
-	pass
+  pass
 ```
 
 ## Summary Variables
@@ -32,10 +32,10 @@ Consider the following code:
 
 ```py
 if request.user.id == document.owner_id:
-	# user can edit
+  # user can edit
 
 if request.user.id != document.owner_id:
-	# user can't edit
+  # user can't edit
 ```
 
 The main concept here is, “Does the user own the document?” This can be stated more clearly by introducing a summary variable:
@@ -44,10 +44,10 @@ The main concept here is, “Does the user own the document?” This can be stat
 user_owns_document = (request.user.id == document.owner_id)
 
 if user_owns_document:
-	# user can edit
+  # user can edit
 
 if not user_owns_document:
-	# user can't edit
+  # user can't edit
 ```
 
 ## Using De Morgan’s Laws
@@ -65,7 +65,7 @@ For example:
 
 ```cpp
 if (!(file_exists && !is_protected)){
-	raise Error("Sorry, could not read file.");
+  raise Error("Sorry, could not read file.");
 }
 ```
 
@@ -73,7 +73,7 @@ This can be rewritten as:
 
 ```cpp
 if (!file_exists || is_protected) {
-    raise Error("Sorry, could not read file.");
+  raise Error("Sorry, could not read file.");
 }
 ```
 
@@ -91,7 +91,7 @@ In plain English, this code is saying, “Get the bucket for this key. If the bu
 bucket = findBucket(key);
 
 if (bucket != NULL) {
-    assert(!bucket->isOccupied());
+  assert(!bucket->isOccupied());
 }
 ```
 
@@ -105,16 +105,16 @@ Consider this complex function:
 
 ```jsx
 let update_highlight = function (message_num) {
-    if ($("#vote_value" + message_num).html() === "Up") {
-        $("#thumbs_up" + message_num).addClass("highlighted");
-        $("#thumbs_down" + message_num).removeClass("highlighted");
-    } else if ($("#vote_value" + message_num).html() === "Down") {
-        $("#thumbs_up" + message_num).removeClass("highlighted");
-        $("#thumbs_down" + message_num).addClass("highlighted");
-    } else {
-        $("#thumbs_up" + message_num).removeClass("highlighted"); 
-        $("#thumbs_down" + message_num).removeClass("highlighted");
-    }
+  if ($("#vote_value" + message_num).html() === "Up") {
+    $("#thumbs_up" + message_num).addClass("highlighted");
+    $("#thumbs_down" + message_num).removeClass("highlighted");
+  } else if ($("#vote_value" + message_num).html() === "Down") {
+    $("#thumbs_up" + message_num).removeClass("highlighted");
+    $("#thumbs_down" + message_num).addClass("highlighted");
+  } else {
+    $("#thumbs_up" + message_num).removeClass("highlighted"); 
+    $("#thumbs_down" + message_num).removeClass("highlighted");
+  }
 }
 ```
 
@@ -122,20 +122,20 @@ We can simplify this by using summary variables to avoid repeating code:
 
 ```jsx
 let update_highlight = function (message_num) {
-	let vote_value = $("#vote_value" + message_num).html();
-	let thumbs_up = $("#thumbs_up" + message_num);
-	let thumbs_down = $("#thumbs_down" + message_num);
-	let hi = "highlighted";
+  let vote_value = $("#vote_value" + message_num).html();
+  let thumbs_up = $("#thumbs_up" + message_num);
+  let thumbs_down = $("#thumbs_down" + message_num);
+  let hi = "highlighted";
 
-	if (vote_value === "Up") {
-        thumbs_up.addClass(hi);
-        thumbs_down.removeClass(hi);
+  if (vote_value === "Up") {
+    thumbs_up.addClass(hi);
+    thumbs_down.removeClass(hi);
   } else if (vote_value === "Down") {
-        thumbs_up.removeClass(hi);
-        thumbs_down.addClass(hi);
+    thumbs_up.removeClass(hi);
+    thumbs_down.addClass(hi);
   } else {
-        thumbs_up.removeClass(hi);
-        thumbs_down.removeClass(hi);
+    thumbs_up.removeClass(hi);
+    thumbs_down.removeClass(hi);
   }
 }
 ```

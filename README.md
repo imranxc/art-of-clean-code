@@ -31,7 +31,7 @@
 * Part 2: Simplifying Loops and Logic
 	* [Chapter 7: Making Control Flow Easy to Read](chapters/7-making-control-flow-easy.md)
 	* [Chapter 8: Breaking Down Giant Expressions](chapters/8-breaking-down-expressions.md)
-	* Chapter 9: Variables and Readability
+	* [Chapter 9: Variables and Readability](chapters/9-variables-and-readability.md)
 * Part 3: Reorganizing Your Code
 	* Chapter 10: Extracting Unrelated Subproblems
 	* Chapter 11: One Task at a Time

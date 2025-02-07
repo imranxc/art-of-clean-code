@@ -1,12 +1,13 @@
 * [Code is for Humans](https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/) by Kyle Simpson
 * [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Robert C. Martin
     * [JuanCrg90/Clean-Code-Notes](https://github.com/JuanCrg90/Clean-Code-Notes)
-    * [Clean Code](https://www.youtube.com/watch?v=-8h1sZ6nyY0) `Audio book`
+    * [Audiobook](https://www.youtube.com/watch?v=-8h1sZ6nyY0)
     * [Clean Code Fundamentals](https://www.oreilly.com/library/view/clean-code-fundamentals/9780134661742/) `Video Series`
     * [Stop Recommending Clean Code](https://www.youtube.com/watch?v=IqHaGd9J42s) `ThePrimeTime`
-    * [Clean Code](https://www.youtube.com/playlist?list=PL-uROEx3vAxg-yricXrDaOK9xzHGGQk1u) `Review`
+    * [chapters](https://www.youtube.com/playlist?list=PL-uROEx3vAxg-yricXrDaOK9xzHGGQk1u) `Review`
 * [Dive into Refactoring](https://refactoring.guru/refactoring/course) by Alexander Shvets
 * [The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) by Andy Hunt and Dave Thomas
+	* [Audiobook](./books/the-pragmatic-programmer.torrent) `torrent`
 	* [HugoMatilla/The-Pragmatic-Programmer](https://github.com/HugoMatilla/The-Pragmatic-Programmer)
 * [Refactoring, 2nd Edition](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/) by Martin Fowler
     * [ittus/Refactoring-summary-2nd-javascript](https://github.com/ittus/Refactoring-summary-2nd-javascript)
